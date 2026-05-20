@@ -1,0 +1,15 @@
+[project]
+name = "jv-uploader"
+version = "0.1.0"
+description = "JV data upload pipeline (S3 + InfluxDB)"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "boto3",
+    "influxdb3-python",
+    "python-dotenv",
+]
+
+[project.scripts]
+jv-upload = "jv_uploader.cli:main"
