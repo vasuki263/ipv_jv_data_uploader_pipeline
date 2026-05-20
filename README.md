@@ -17,7 +17,7 @@ Supports both single‑file uploads and batch uploads with progress indicators.
 
 
 📂 Project Structure
-'''
+**'''**
 src/jv_uploader/
 │
 ├── parser.py          # Parse JV text files → DataFrame
