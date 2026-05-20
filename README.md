@@ -16,8 +16,8 @@ Supports both single‑file uploads and batch uploads with progress indicators.
 - Progress indicators for batch processing
 
 
-📂 Project Structure
-**'''**
+## 📂 Project Structure
+
 src/jv_uploader/
 │
 ├── parser.py          # Parse JV text files → DataFrame
@@ -28,7 +28,7 @@ src/jv_uploader/
 ├── cli.py             # Command-line interface
 ├── config.py          # Environment variable loading
 └── __init__.py
-'''
+
 
 🔧 Installation
 1. Clone the repository
