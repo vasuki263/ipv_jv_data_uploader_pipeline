@@ -42,6 +42,7 @@ src/jv_uploader/
   .venv\Scripts\activate      # Windows
 3. Install dependencies
    pip install -r requirements.txt
+4. pip install -e . 
 ```
 
 ## 🔐 Environment Variables
@@ -58,10 +59,23 @@ SOLAR_PARK_SPECTRA_INFLUXDB_TOKEN=your_influx_token
 
 ## 🖥️ CLI Usage
 ▶️ Upload a single JV file
-```python -m src.jv_uploader.cli upload-one --file path/to/file.txt```
+```
+python -m src.jv_uploader.cli upload-one --file path/to/file.txt
+
+OR directly
+
+jv-upload upload-one --file path/to/file.txt
+```
 
 ▶️ Upload all JV files in a directory
-```python -m src.jv_uploader.cli upload-all --root path/to/folder```
+```
+python -m src.jv_uploader.cli upload-all --root path/to/folder
+
+OR directly
+
+jv-upload upload-all --root path/to/folder
+
+```
 
 
 ## 🔄 Pipeline Overview
